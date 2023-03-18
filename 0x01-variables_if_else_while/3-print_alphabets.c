@@ -21,13 +21,12 @@ int main(void)
 		putchar(lowerCase);
 	}
 
-	putchar('\n');
-
 	for (upperCase = 'A'; upperCase <= 'Z'; upperCase++)
 	{
 		putchar(upperCase);
 	}
 
+	putchar('\n');
 
 	return (0);
 }

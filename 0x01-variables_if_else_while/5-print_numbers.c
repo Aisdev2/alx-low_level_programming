@@ -28,8 +28,9 @@ int main(void)
 	for (decimal = 0; decimal < 10; decimal++)
 	{
 		printf("%d", decimal);
-		putchar('\n');
 	}
+
+	putchar('\n');
 
 	return (0);
 }
