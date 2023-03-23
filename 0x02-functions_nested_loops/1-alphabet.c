@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * main - prin alphabet in lowercase
- *
- * Return: 0
+ * print_alphabet - print alphabet in lowercase
+ * written by Aisosa
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char letters;
 
@@ -19,6 +18,4 @@ int main(void)
 	}
 
 	_putchar('\n');
-
-	return (0);
 }
