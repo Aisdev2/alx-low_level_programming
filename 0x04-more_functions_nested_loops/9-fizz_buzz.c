@@ -30,7 +30,10 @@ int main(void)
 		{
 			printf("%d", fizzBuzz);
 		}
-		printf(" ");
+		if (fizzBuzz < 100)
+		{
+			printf(" ");
+		}
 		fizzBuzz++;
 	}
 
