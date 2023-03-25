@@ -34,5 +34,7 @@ int main(void)
 		fizzBuzz++;
 	}
 
+	printf("\n");
+
 	return (0);
 }
