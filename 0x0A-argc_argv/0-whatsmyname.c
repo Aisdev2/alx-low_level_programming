@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - a program that print its name.
@@ -8,9 +7,9 @@
  * Return: 0.
  */
 
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
-	if(argc)
+	if (argc)
 	{
 		printf("%s\n", argv[0]);
 	}
