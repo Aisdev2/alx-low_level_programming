@@ -1,24 +1,15 @@
-#include "main.h"
+#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - print _putchar
+ * _putchar - write tye character c to stdout.
  *
- * written by Aisosa
+ * @c: the character to be printed.
  *
- * Return: 0
+ * Return: 1 on success, abd -1 on failure.
  */
 
-int main(void)
+int _putchar(char c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
