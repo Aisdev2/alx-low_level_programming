@@ -11,16 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int count;
-
-	int sum;
+	int count, sum;
 
 	sum = 0;
-
-	if (argc == 1)
-	{
-		printf("0\n");
-	}
 
 	for (count = 1; count < argc; count++)
 	{
@@ -38,10 +31,7 @@ int main(int argc, char *argv[])
 			}
 		}
 
-		if (argc > 0)
-		{
-			sum += atoi(str);
-		}
+		sum += atoi(str);
 	}
 
 	printf("%d\n", sum);
